@@ -30,6 +30,12 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig getSigningConfig()
+            applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "CustomSticker.apk"
+                }
+            }
         }
     }
     compileOptions {
@@ -64,7 +70,7 @@ task checkRelease {
     doLast {
         println("checkRelease")
         if (android.defaultConfig.applicationId.startsWith("com.example")) {
-            throw new GradleException("applicationId in defaultConfig cannot start with com.example, please change your applicationId in app/build.gradle");
+
         }
     }
 }
