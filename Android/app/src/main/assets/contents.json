@@ -4,8 +4,8 @@
   "sticker_packs": [
     {
       "identifier": "1",
-      "name": "Cuppy",
-      "publisher": "Jane Doe",
+      "name": "Love you",
+      "publisher": "My Stickers",
       "tray_image_file": "tray_Cuppy.png",
       "publisher_email":"",
       "publisher_website": "",
@@ -14,11 +14,11 @@
       "stickers": [
         {
           "image_file": "01_Cuppy_smile.webp",
-          "emojis": ["☕","🙂"]
+          "emojis": ["",""]
         },
         {
           "image_file": "02_Cuppy_lol.webp",
-          "emojis": ["😄","😀"]
+          "emojis": ["",""]
         },
         {
           "image_file": "03_Cuppy_rofl.webp",
@@ -26,11 +26,11 @@
         },
         {
           "image_file": "04_Cuppy_sad.webp",
-          "emojis": ["😩","😰"]
+          "emojis": ["",""]
         },
         {
           "image_file": "05_Cuppy_cry.webp",
-          "emojis": ["😭","💧"]
+          "emojis": ["","💧"]
         },
         {
           "image_file": "06_Cuppy_love.webp",
@@ -83,7 +83,19 @@
         {
           "image_file": "18_Cuppy_workhard.webp",
           "emojis": ["💻","🌃"]
-        },
+        }
+      ]
+    },
+    {
+      "identifier": "2",
+      "name": "Hugs",
+      "publisher": "My Stickers",
+      "tray_image_file": "tray_Cuppy.png",
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers":[
         {
           "image_file": "19_Cuppy_shine.webp",
           "emojis": ["🎉","✨"]
